@@ -69,7 +69,6 @@ header nav ul li a:hover {
 }
  /* hero section */
 .hero {
-    opacity: 95%;
     background-image: url(./images/midtown-manhattan-new-york-city-usa.jpg);
     align-items: flex-start;
     background-size: cover;
@@ -94,34 +93,51 @@ header nav ul li a:hover {
     padding: 40px;
 }
 
-.hero-looks h2, p {
+.hero-looks h2 {
+    font-size: 30px;
     color: white;
     text-align: center;
     text-shadow: 0.5 0.5 0.5 rgba(255, 255, 255, 0.5);
-}
-
-.hero-looks h2 {
     border-bottom: 1px solid white;
 }
 
-.left-titles {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.section-title {
-    font-size: 48px;
-    border-bottom: 3px solid;
-    padding-bottom: 5px;
+.hero-looks p {
     text-align: center;
-    margin: 0 auto 25px auto;
-    width: 50%;
+    color: white;
+    font-size: 20px;
 }
+
 .flex-row {
     display: flex;
 }
+
+/* titles */
+
+/* background section */
+.bg-info {
+    display: flex;
+    justify-content: space-around;
+}
+.bg-info img {
+    width: 90%;
+    height: 300px;
+    object-fit: contain;
+}
+.bio {
+    text-align: left;
+    align-items: center;
+}
+.section-title {
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 25px auto;
+    width: 50%;
+    font-size: 36px;
+}
+
+
+/* footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -129,4 +145,9 @@ footer {
     width: 100%;
     background-color: var(--blue);
     padding: 40px;
+}
+
+.entire {
+    margin: 0 auto;
+    flex: 0 100%;
 }
