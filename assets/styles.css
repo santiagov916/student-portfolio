@@ -83,7 +83,7 @@ header nav ul li a:hover {
 .hero-looks {
     width: 30%;
     align-items: center;
-    margin: 7.5%;
+    margin: 5.77%;
     line-height: 1.5;
 }
 
@@ -137,16 +137,6 @@ header nav ul li a:hover {
     color: var(--blue);
 }
 
-/* footer */
-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: var(--blue);
-    padding: 40px;
-}
-
 .entire {
     margin: 0 auto;
     flex: 0 100%;
@@ -179,4 +169,44 @@ footer {
 .bio p {
     text-align: center;
     width: 84%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--blue);
+    height: 85px;
+}
+
+.contacts nav {
+    width: 100%;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.contacts nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.contacts nav ul li a:hover {
+    background: white;
+    color: black;
+    text-shadow: none;
 }
