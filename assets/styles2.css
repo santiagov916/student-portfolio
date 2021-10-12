@@ -29,16 +29,16 @@ header a {
 }
 
 .header-text {
-    padding-right: 400px;
     margin: 7px 0;
     align-items: center;
     font-weight: lighter;
     font-size: 1vw;
     color: var(--blue);
-
+    padding-right: 30%;
 }
 
 .title {
+    display: flex;
     padding-right: 3%;
     border-right: 2px solid var(--blue);
 }
@@ -126,10 +126,7 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
 }
-.title {
-    display: flex;
-}
-    
+   
     /* footer */
     footer {
         display: flex;
@@ -170,66 +167,4 @@ header nav ul li a:hover {
         background: white;
         color: black;
         text-shadow: none;
-    }
-    
-    
-    
-    /* section duplicate code  */
-    
-    .bg-info {
-        display: flex;
-        justify-content: space-around;
-    }
-    .bg-info img {
-        width: 90%;
-        height: 300px;
-        object-fit: contain;
-    }
-    .bio {
-        text-align: left;
-        align-items: center;
-    }
-    .section-title {
-        border-right: 3px solid;
-        padding-right: 20px;
-        text-align: right;
-        margin-right: 0 auto;
-        margin: 24px 0 0 0;
-        width: 50%;
-        font-size: 36px;
-        color: var(--blue);
-    }
-    
-    .entire {
-        margin: 0 auto;
-        flex: 0 100%;
-    }
-    
-    .background { 
-        display: flex;
-        padding: 0 32px;
-    }
-    
-    .flex-row {
-        width:  40%;
-    }
-    
-    .bg-info {
-        width: 76%;
-        display: flex;
-        margin-top: 24px;
-        line-height: 1.5;
-    }
-    
-    .bio-img {
-        background-image: url(./images/4D842A88-085B-49C5-A4A8-BB5C55150959_1_105_c.jpeg);
-        width: 100%;
-        height: 400px;
-        background-position: 200 -128px;
-        background-repeat: no-repeat;
-    }
-    
-    .bio p {
-        text-align: center;
-        width: 84%;
     }
