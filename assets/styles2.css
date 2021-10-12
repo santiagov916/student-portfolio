@@ -1,0 +1,187 @@
+:root {
+    --blue: rgba(51, 64, 136, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 20px 35px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(./images/midtown-manhattan-new-york-city-usa.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+header a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.header-text {
+    margin: 7px 0;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1vw;
+    color: var(--blue);
+    padding-right: 30%;
+}
+
+.title {
+    display: flex;
+    padding-right: 3%;
+    border-right: 2px solid var(--blue);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--blue);
+    margin: 0;
+    text-shadow: 0 1 1 rgb(0, 0, 0);
+}
+
+header p {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/* nav section */
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: white;
+    border: 15px;
+    text-shadow: none;
+}
+ /* hero section */
+.hero {
+    background-image: url(./images/midtown-manhattan-new-york-city-usa.jpg);
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 80%;
+    flex-direction: row;
+}
+
+/* body */
+.main {
+    display: flex;
+}
+.card {
+    margin-right: auto 80px;
+    display: flex;
+    flex-direction: column;
+    width: 40% auto;
+}
+.card-body {
+    margin: 26.2% auto;
+    align-items: center;
+}
+.card-img {
+    
+    margin: 90px 90px 30px 90px;
+    align-items: center;
+    opacity: 88%;
+}
+.card-img img {
+    border-radius: 50%;
+    height: 300px;
+}
+.card-script {
+    backdrop-filter: blur(7px);
+    background-color: 3px solid var(--blue);
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+}
+
+.card-title {
+    margin: 24px 0 0 0;
+    font-size: 36px;
+    color: var(--blue);
+    color: white;
+    border-bottom: 3px solid;
+    border-width: 1px;
+    margin: 0 40px;
+    text-align: center;
+    border-width: 80%;
+}
+.card-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 8px 40px;
+}
+   
+    /* footer */
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-image: url(./images/midtown-manhattan-new-york-city-usa.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 80%;
+        padding: 20px 35px;
+    }
+    /* footer links */
+    .contacts nav {
+        width: 100%;
+    }
+    
+    .contacts a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contacts nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .contacts nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 1.55vw;
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    }
+    
+    .contacts nav ul li a:hover {
+        background: white;
+        color: black;
+        text-shadow: none;
+    }
