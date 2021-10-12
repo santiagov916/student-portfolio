@@ -94,28 +94,44 @@ header nav ul li a:hover {
 }
 
 /* body */
+.main {
+    display: flex;
+}
 .card {
     margin-right: auto 80px;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 40% auto;
 }
 .card-body {
-    margin: 40% 0;
+    margin: 26.2% auto;
+    align-items: center;
 }
 .card-img {
+    
     margin: 90px 90px 30px 90px;
+    align-items: center;
     opacity: 88%;
 }
 .card-img img {
     border-radius: 50%;
+    height: 300px;
 }
+.card-script {
+    backdrop-filter: blur(7px);
+    background-color: 3px solid var(--blue);
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+}
+
 .card-title {
     margin: 24px 0 0 0;
     font-size: 36px;
     color: var(--blue);
     color: white;
     border-bottom: 3px solid;
+    border-width: 1px;
     margin: 0 40px;
     text-align: center;
     border-width: 80%;
@@ -125,6 +141,7 @@ header nav ul li a:hover {
     font-weight: bold;
     color: white;
     text-align: center;
+    margin: 8px 40px;
 }
    
     /* footer */
