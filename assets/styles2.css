@@ -22,6 +22,7 @@ header {
     background-position: 80%;
     background-attachment: fixed;
     z-index: 9999;
+    filter: brightness(80%);
 }
 header a {
     text-decoration: none;
@@ -91,6 +92,8 @@ header nav ul li a:hover {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
+    filter: brightness(80%);
+    z-index: -100;
 }
 
 
@@ -112,22 +115,26 @@ header nav ul li a:hover {
     opacity: 88%;
 }
 .card-img img {
+    margin: 5px;
     border-radius: 50%;
-    height: 300px;
+    height: 400px;
 }
 
 .card-title {
-    font-size: 36px;
     color: white;
     border-bottom: 3px solid;
     border-width: 1px;
     text-align: center;
+    backdrop-filter: blur(7px);
 }
 .card-text {
     font-size: 18px;
     font-weight: bold;
     color: white;
     text-align: center;
+}
+.blur {
+    background-color: rgba(999, 999, 999, 0.6);
 }
 
 
@@ -149,9 +156,9 @@ header nav ul li a:hover {
 .content-text {
     font-size: 18px;
     font-weight: bold;
-    color: white;
-    text-align: left;
+    color: var(--blue);
     margin: 24px 8px;
+    text-align: center;
 }
 
 
@@ -169,6 +176,7 @@ footer {
     background-attachment: fixed;
     background-position: 80%;
     padding: 20px 35px;
+    filter: brightness(80%);
 }
 
 
@@ -177,6 +185,12 @@ footer {
 
 
 
+.content-title2 {
+    color: var(--blue);
+    border-bottom: 3px solid;
+    border-width: 1px;
+    text-align: center;
+}
 .contacts nav {
     width: 100%;
     background-color: rgba(51, 64, 136, 0.0);
@@ -210,4 +224,47 @@ footer {
 }
 
 
+/* code for project card */
 
+
+
+.project-list a {
+    color: var(--blue);
+}
+ul li {
+    list-style: none;
+}
+.project-img {
+    margin: 32px 0;
+}
+.project-img img {
+    height: 224px;
+    margin: 3%;
+    padding: 0 10px;
+}
+.project-list {
+    margin: 32px 0;
+    padding: 16px;
+    background-color: rgba(999, 999, 999, 0.6);
+    color: var(--blue);
+    text-align: center;
+}
+
+
+
+/* mission statement */
+
+.statement {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--blue);
+    margin: 24px 8px;
+    text-align: center;
+    background-color: rgba(999, 999, 999, 0.6);
+}
+.mission-title {
+    color: var(--blue);
+    border-bottom: 3px solid;
+    border-width: 1px;
+    text-align: center;
+}
