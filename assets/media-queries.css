@@ -6,16 +6,27 @@
       /* this will be applied on any screen smaller than 980px */
 
     .title {
-        border-bottom: 2px solid var(--blue);
-        border-right: 0px solid var(--blue);
+        display: flex;
+        border-right: none;
+        border-bottom: 1px solid var(--blue);
+        padding-right: 0;
+        margin: 0 auto;
+    }
+    .title h1 {
+        text-align: center;
     }
     .header-text {
+        margin: 0 auto;
         width: 100%;
-        padding-right: 0;
+        padding-right: 0%;
+    }
+    header nav {
+        align-items: center;
+        margin: 0 auto;
     }
     .header-text p {
-        padding-left: 15%;
-        text-align: left;
+        padding: auto;
+        text-align: center;
         font-size: 1.5vw;
     }
     header nav ul li a {
