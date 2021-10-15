@@ -5,6 +5,10 @@
 @media screen and (max-width: 980px) {
       /* this will be applied on any screen smaller than 980px */
 
+    .title {
+        border-bottom: 2px solid var(--blue);
+        border-right: 0px solid var(--blue);
+    }
     .header-text {
         width: 100%;
         padding-right: 0;
@@ -58,12 +62,11 @@
         display: flex;
         align-items: center;
       }
+
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
       /* this will be applied on any screen smaller than 575px */
-    .card-title h2 {
-        margin: auto;
-    }
+
   }
