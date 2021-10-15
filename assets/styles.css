@@ -32,7 +32,6 @@ header {
 .title {
     display: flex;
     padding-right: 3%;
-    border-right: 2px solid var(--blue);
 }
 
 .header-text {
