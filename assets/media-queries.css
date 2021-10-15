@@ -1,7 +1,33 @@
+:root {
+    --blue: rgb(51, 64, 136);
+}
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
       /* this will be applied on any screen smaller than 980px */
-  
+
+    .header-text {
+        width: 100%;
+        padding-right: 0;
+    }
+    .header-text p {
+        padding-left: 15%;
+        text-align: left;
+        font-size: 1.5vw;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .hero-looks {
+        width: 30%;
+        align-items: center;
+        margin: 6.04%;
+        line-height: 1.5;
+    }
+
     
   }
   
@@ -9,10 +35,35 @@
   @media screen and (max-width: 768px) {
       /* this will be applied on any screen between 768px and 575px */
  
+      .title {
+          padding: 0%;
+          border-bottom: 2px solid var(--blue);
+          border-right: 0px;
+          align-items: center;
+          margin: 0 auto;
+      }
+      .title h1 a {
+          text-align: center;
+      }
+      .header-text {
+          align-items: center;
+          margin: 0 auto;
+      }
+      .header-text p {
+          text-align: center;
+          padding-right: 15%;
+      }
+      header nav {
+          margin: 0 auto;
+        display: flex;
+        align-items: center;
+      }
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
       /* this will be applied on any screen smaller than 575px */
-
+    .card-title h2 {
+        margin: auto;
+    }
   }
