@@ -1,7 +1,9 @@
 const router = require('express').Router();
 
-const mainRoutes = require('./main-routes');
+const homeRoutes = require('./nav');
+const mainPage = require('./main.js');
 
-router.use('/main', mainRoutes);
+router.use('/', homeRoutes);
+router.use('/main', mainPage)
 
 module.exports = router;
