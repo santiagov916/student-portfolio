@@ -3,7 +3,9 @@ const router = require('express').Router();
 router.get('/', (req, res) => {
     console.log('about page');
 
-    res.render('about');
+    res.render('about', {
+        layout: 'main'
+    });
 });
 
 module.exports = router;
